@@ -1,0 +1,63 @@
+[
+    {
+        "type": "postback",
+        "replyToken": "36ef57216d464c3db3bfeafd75ceda54",
+        "source": {
+            "userId": "Ub79aaa5d7153878e022099401214af3f",
+            "type": "user"
+        },
+        "timestamp": 1586533677620,
+        "mode": "active",
+        "postback": {
+            "data": "richmenu_bus"
+        }
+    },
+    {
+        "type": "text",
+        "text": "กรุณาเลือกสถานที่ต้นทางด้วยครับ",
+        "quickReply": {
+            "items": [
+                {
+                    "type": "action",
+                    "action": {
+                        "type": "location",
+                        "label": "Send location"
+                    }
+                }
+            ]
+        }
+    },
+    {
+        "uri": "https://maps.googleapis.com/maps/api/directions/json",
+        "qs": {
+            "key": "AIzaSyCyROgrZyH2M7h5ywPA6V_dLu9Pn_lM_SI",
+            "origin": "13.819591336920283,100.51468508784689",
+            "destination": "13.800283531264332,100.55122683738438",
+            "mode": "transit",
+            "transit_mode": "bus",
+            "language": "th"
+        }
+    },
+    {
+        "uri": "https://maps.googleapis.com/maps/api/place/nearbysearch/json",
+        "qs": {
+            "key": "AIzaSyCyROgrZyH2M7h5ywPA6V_dLu9Pn_lM_SI",
+            "radius": 1000,
+            "location": "15.164133419213838,100.13641241687026",
+            "language": "th",
+            "opennow": true,
+            "type": "tourist_attraction"
+        }
+    },
+    {
+        "uri": "https://maps.googleapis.com/maps/api/place/textsearch/json",
+        "qs": {
+            "key": "AIzaSyCyROgrZyH2M7h5ywPA6V_dLu9Pn_lM_SI",
+            "query": "ชัยนาท+แหล่งท่องเที่ยว",
+            "language": "th",
+            "rankby": "prominence"
+        }
+    },
+    {"uri":"https://maps.googleapis.com/maps/api/place/nearbysearch/json","qs":{"key":"AIzaSyCyROgrZyH2M7h5ywPA6V_dLu9Pn_lM_SI","radius":1000,"location":"15.20673142894679,100.1528877482161","language":"th","opennow":true,"type":"tourist_attraction"}}
+
+]

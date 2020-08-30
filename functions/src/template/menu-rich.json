@@ -1,0 +1,90 @@
+{
+  "menu-rich-default": {
+    "size": {
+      "width": 2500,
+      "height": 1686
+    },
+    "selected": true,
+    "name": "Rich Menu 1",
+    "chatBarText": "เมนูช่วยเหลือ",
+    "areas": [
+      {
+        "bounds": {
+          "x": 54,
+          "y": 66,
+          "width": 730,
+          "height": 718
+        },
+        "action": {
+          "type": "postback",
+          "text": "Bus",
+          "data": "Data 1"
+        }
+      },
+      {
+        "bounds": {
+          "x": 858,
+          "y": 38,
+          "width": 780,
+          "height": 775
+        },
+        "action": {
+          "type": "postback",
+          "text": "Area 2",
+          "data": "Data 2"
+        }
+      },
+      {
+        "bounds": {
+          "x": 1696,
+          "y": 42,
+          "width": 779,
+          "height": 779
+        },
+        "action": {
+          "type": "postback",
+          "text": "Area 3",
+          "data": "Data 3"
+        }
+      },
+      {
+        "bounds": {
+          "x": 38,
+          "y": 879,
+          "width": 770,
+          "height": 771
+        },
+        "action": {
+          "type": "postback",
+          "text": "Area 4",
+          "data": "Data 4"
+        }
+      },
+      {
+        "bounds": {
+          "x": 863,
+          "y": 879,
+          "width": 775,
+          "height": 775
+        },
+        "action": {
+          "type": "postback",
+          "text": "Area 5",
+          "data": "Data 5"
+        }
+      },
+      {
+        "bounds": {
+          "x": 1700,
+          "y": 879,
+          "width": 775,
+          "height": 784
+        },
+        "action": {
+          "type": "message",
+          "text": "Area 6"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,598 @@
+{
+  "flexbox_prototypePlace": {
+    "type": "flex",
+    "altText": "Flex Message",
+    "contents": {
+      "type": "carousel",
+      "contents": []
+    }
+  },
+  "flexbox_placeSelect": {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "text",
+          "text": "ครัวเมืองลำปาง",
+          "size": "lg",
+          "align": "start",
+          "weight": "bold",
+          "wrap": true
+        },
+        {
+          "type": "separator"
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "contents": [
+            {
+              "type": "text",
+              "text": "สถานที่ตั้ง:",
+              "flex": 4,
+              "size": "md",
+              "gravity": "bottom",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "100 ถนน ห้วยแก้ว ตำบลสุเทพ อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200",
+              "flex": 8,
+              "size": "sm",
+              "align": "start",
+              "weight": "regular",
+              "wrap": true
+            },
+            {
+              "type": "spacer"
+            }
+          ]
+        },
+        {
+          "type": "separator"
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "contents": [
+            {
+              "type": "text",
+              "text": "สถานะการให้บริการ:",
+              "flex": 3,
+              "margin": "sm",
+              "size": "sm",
+              "align": "start",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "เปิดอยู่",
+              "flex": 2,
+              "margin": "sm",
+              "size": "sm",
+              "align": "start",
+              "weight": "bold",
+              "color": "#0CF929"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "contents": [
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "text",
+              "text": "4.0",
+              "flex": 3,
+              "margin": "sm",
+              "size": "sm",
+              "align": "start",
+              "weight": "regular"
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "ดูรายละเอียด",
+            "data": "{\"DATA\":\"BACD\"}"
+          },
+          "color": "#459950",
+          "style": "primary"
+        }
+      ]
+    }
+  },
+  "flexbox_placeDetail": {
+    "type": "bubble",
+    "hero": {
+      "type": "image",
+      "url": "https://maps.googleapis.com/maps/api/place/photo?key=AIzaSyCyROgrZyH2M7h5ywPA6V_dLu9Pn_lM_SI&maxwidth=400&photoreference=CmRaAAAARq5_-rjJnDfAra82z3R_NwJ-oZlDCFvAomEwifUzmg-YGVdFR43yAGNeOXCyyMV_N7HLEq-JLLb9M3Tg75oMXLaFibcJUFD0peMhj0tCaKoflomajiDr0UjUKN0_KfVOEhCkBiSZie8tr_aW6vZqBKBEGhRIsQxyOOTIrTG4NBt6y5hF55BtNg",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "text",
+          "text": "ครัวเมืองลำปาง",
+          "size": "lg",
+          "weight": "bold",
+          "wrap": true
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "contents": [
+            {
+              "type": "text",
+              "text": "สถานที่ตั้ง:",
+              "flex": 4,
+              "size": "md",
+              "gravity": "bottom",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "100 ถนน ห้วยแก้ว ตำบลสุเทพ อำเภอเมืองเชียงใหม่ เชียงใหม่ 50200",
+              "flex": 8,
+              "size": "sm",
+              "align": "start",
+              "weight": "regular",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "contents": [
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "text",
+              "text": "4.2",
+              "flex": 3,
+              "margin": "sm",
+              "size": "sm",
+              "align": "start",
+              "weight": "regular"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "contents": [
+            {
+              "type": "text",
+              "text": "จำนวนการรีวิว:",
+              "flex": 3,
+              "margin": "sm",
+              "size": "sm",
+              "align": "start",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "13",
+              "flex": 4,
+              "margin": "sm",
+              "size": "sm",
+              "align": "start",
+              "weight": "regular"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "contents": [
+            {
+              "type": "text",
+              "text": "เบอร์โทร:",
+              "flex": 3,
+              "margin": "sm",
+              "size": "sm",
+              "align": "start",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "053 221 179",
+              "flex": 8,
+              "margin": "sm",
+              "size": "sm",
+              "align": "start",
+              "weight": "regular"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "contents": [
+            {
+              "type": "text",
+              "text": "เว็บไซต์:",
+              "flex": 3,
+              "size": "md",
+              "gravity": "bottom",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "http://www.chiangmaizoo.com/",
+              "flex": 8,
+              "size": "sm",
+              "align": "start",
+              "weight": "regular",
+              "wrap": true
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "โทร",
+            "uri": "https://linecorp.com"
+          },
+          "flex": 3,
+          "color": "#03B037",
+          "style": "primary"
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "เว็บไซต์",
+            "uri": "https://linecorp.com"
+          },
+          "flex": 3,
+          "color": "#028E7D",
+          "height": "md",
+          "style": "primary"
+        }
+      ]
+    }
+  },
+  "flexbox_placeTime": {
+    "type": "bubble",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "spacing": "xl",
+          "contents": [
+            {
+              "type": "text",
+              "text": "วันเวลาที่เปิดทำการ",
+              "margin": "sm",
+              "size": "lg",
+              "align": "center",
+              "weight": "bold"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "text",
+              "text": "วันอาทิตย์ 8:00–18:00",
+              "align": "center"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "text",
+              "text": "วันจันทร์ 8:00–18:00",
+              "align": "center"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "text",
+              "text": "วันอังคาร 8:00–18:00",
+              "align": "center"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "text",
+              "text": "วันพุธ 8:00–18:00",
+              "align": "center"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "text",
+              "text": "วันพฤหัสบดี 8:00–18:00",
+              "align": "center"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "text",
+              "text": "วันศุกร์ 8:00–18:00",
+              "align": "center"
+            },
+            {
+              "type": "separator"
+            },
+            {
+              "type": "text",
+              "text": "วันเสาร์ 8:00–18:00",
+              "align": "center"
+            },
+            {
+              "type": "separator"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "spacing": "xl",
+          "contents": [
+            {
+              "type": "text",
+              "text": "สถานะการให้บริการ:",
+              "flex": 3,
+              "margin": "sm",
+              "size": "lg",
+              "align": "start",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "เปิดอยู่",
+              "flex": 1,
+              "margin": "sm",
+              "size": "lg",
+              "align": "start",
+              "weight": "bold",
+              "color": "#0CF929"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "flexbox_placeReview": {
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "text",
+          "text": "REVIEW",
+          "size": "sm",
+          "weight": "bold",
+          "color": "#AAAAAA"
+        }
+      ]
+    },
+    "hero": {
+      "type": "image",
+      "url": "https://lh4.ggpht.com/-bXx83tZHuW8/AAAAAAAAAAI/AAAAAAAAAAA/R9umGJGU518/s128-c0x00000000-cc-rp-mo-ba4/photo.jpg",
+      "size": "xl",
+      "aspectRatio": "20:13",
+      "action": {
+        "type": "uri",
+        "label": "Action",
+        "uri": "https://linecorp.com/"
+      }
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "md",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "ลุงยุทธ บานไม่รู้โรย",
+              "flex": 8,
+              "size": "lg",
+              "align": "center",
+              "gravity": "bottom",
+              "weight": "bold",
+              "wrap": true
+            },
+            {
+              "type": "separator"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "contents": [
+            {
+              "type": "text",
+              "text": "ความคิดเห็น:",
+              "flex": 8,
+              "size": "md",
+              "align": "start",
+              "gravity": "center",
+              "weight": "bold",
+              "wrap": true
+            },
+            {
+              "type": "text",
+              "text": "รสอาหารใช่ได้แต่พนักควรเปลี่ยนยกทีมไปซืัอกินนะไม่ได้ขอกินฟรีพูดจาไม่ดีสมควรเปลี่ยนยกทีมเลย",
+              "flex": 1,
+              "size": "md",
+              "align": "start",
+              "wrap": true
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "contents": [
+            {
+              "type": "text",
+              "text": "การให้คะแนน:",
+              "flex": 0,
+              "margin": "sm",
+              "size": "sm",
+              "align": "start",
+              "weight": "bold"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gold_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png",
+              "size": "sm"
+            },
+            {
+              "type": "icon",
+              "url": "https://scdn.line-apps.com/n/channel_devcenter/img/fx/review_gray_star_28.png",
+              "size": "sm"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "baseline",
+          "contents": [
+            {
+              "type": "text",
+              "text": "แสดงความคิดเห็นเมื่อ",
+              "flex": 6,
+              "margin": "sm",
+              "size": "sm",
+              "align": "start",
+              "weight": "bold"
+            },
+            {
+              "type": "text",
+              "text": "2 ปีที่แล้ว",
+              "flex": 4,
+              "margin": "sm",
+              "size": "sm",
+              "align": "start",
+              "weight": "bold",
+              "color": "#EA7F7F"
+            }
+          ]
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "ดูรายละเอียดผู้รีวิว",
+            "uri": "https://www.google.com/maps/contrib/110408252214450046707/reviews/@14.108896,99.6294087,9.94z"
+          },
+          "color": "#04A4B6",
+          "style": "primary"
+        }
+      ]
+    }
+  }
+}

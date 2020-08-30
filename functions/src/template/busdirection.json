@@ -1,0 +1,87 @@
+{
+  "type": "flex",
+  "altText": "Flex Message",
+  "contents": {
+    "type": "bubble",
+    "direction": "ltr",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "เส้นทาง",
+          "align": "center",
+          "weight": "bold"
+        }
+      ]
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "เดินไปที่ ป้ายรถประจำทาง โรงเรียนพระรามหกเทคโนโลยี",
+          "margin": "xxl",
+          "align": "start",
+          "gravity": "top",
+          "weight": "regular",
+          "wrap": true
+        },
+        {
+          "type": "separator",
+          "margin": "xs",
+          "color": "#3F3F3F"
+        },
+        {
+          "type": "text",
+          "text": "ปลายทาง: ป้ายรถประจำทาง ท่า99"
+        },
+        {
+          "type": "text",
+          "text": "รถเมล์สาย: 110ร (พระราม 7 - เทเวศร์)"
+        },
+        {
+          "type": "separator",
+          "margin": "xs",
+          "color": "#3F3F3F"
+        },
+        {
+          "type": "text",
+          "text": "ป้ายรถประจำทาง: วัดไตร"
+        },
+        {
+          "type": "text",
+          "text": "รถเมล์สาย: 23ทด (สำโรง - เทเวศน์)"
+        },
+        {
+          "type": "separator",
+          "margin": "xs",
+          "color": "#3F3F3F"
+        },
+        {
+          "type": "text",
+          "text": "เดินไปที่ 1295 ถนน บางนา-ตราด แขวง บางนา เขตบางนา กรุงเทพมหานคร 10260 ประเทศไทย",
+          "wrap": true
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "horizontal",
+      "contents": [
+        {
+          "type": "button",
+          "action": {
+            "type": "uri",
+            "label": "รายละเอียดเพิ่มเติม",
+            "uri":""
+          },
+          "color":"#03b037",
+          "style":"primary"
+        }
+      ]
+    }
+  }
+}
