@@ -13,11 +13,11 @@
     "node": "10"
   },
   "dependencies": {
-    "@line/bot-sdk": "^6.8.3",
+    "@line/bot-sdk": "^6.8.4",
     "express": "^4.17.1",
     "express-session": "^1.17.0",
-    "firebase": "^7.5.0",
-    "firebase-admin": "^8.10.0",
+    "firebase": "^7.14.0",
+    "firebase-admin": "^9.0.0",
     "firebase-functions": "^3.3.0",
     "jwt-simple": "^0.5.6",
     "passport": "^0.4.1",
