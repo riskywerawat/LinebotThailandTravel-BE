@@ -13,8 +13,8 @@
     "node": "10"
   },
   "dependencies": {
-    "@line/bot-sdk": "^6.8.3",
-    "express": "^4.17.1",
+    "@line/bot-sdk": "^6.8.4",
+    "express": "^4.22.0",
     "express-session": "^1.17.0",
     "firebase": "^7.5.0",
     "firebase-admin": "^8.10.0",
